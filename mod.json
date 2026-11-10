@@ -1,0 +1,31 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081"
+	},
+	"id": "vasurta.discord-auto-mute",
+	"name": "Discord Auto Mute",
+	"version": "v1.0.0",
+	"resources": {
+	"sprites": ["resources/*.png"]
+},
+	"developer": "vasurta",
+	"description": "Automatically mutes your microphone in Discord once you reach a chosen percentage in a level, and unmutes when you die, quit or complete it. Uses a Discord \"Push to Mute\" keybind.",
+	"repository": "https://github.com/vasurta/discord-auto-mute",
+	"settings": {
+		"percent": {
+			"type": "int",
+			"name": "Default percent (0 = off)",
+			"default": 0,
+			"min": 0,
+			"max": 100
+		},
+		"vk": {
+			"type": "int",
+			"name": "Key code (VK)",
+			"default": 123,
+			"min": 1,
+			"max": 255
+		}
+	}
+}
